@@ -4,6 +4,7 @@
     background-color: #ffffff; /* Light background */
     padding: 30px 0 20px;
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #ddd; /* Optional: subtle border */
@@ -14,11 +15,13 @@
   }
 
   .sticky-header .centered-container {
-    max-width: 60%;
+    max-width: 1250px;
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   
   .titlec {
@@ -43,10 +46,12 @@
     display: flex;
     gap: 15px;
     font-family: 'Outfit';
+    text-align: center;
   }
   
   .sticky-header .nav-links li {
     display: inline;
+    text-align: center ;
   }
   
   .sticky-header .nav-links a {
@@ -55,10 +60,11 @@
     font-size: 16px;
     padding: 8px 12px;
     transition: background-color 0.3s, color 0.3s;
+    text-align: center;
   }
   
   .sticky-header .nav-links a:hover {
-    color: white; /* Hover text color */
+    color: orange; /* Hover text color */
   }
 
   @font-face {
