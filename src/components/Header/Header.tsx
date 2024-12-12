@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           <nav>
             <ul className="nav-links">
               <li>
-                <a href="#home">Floor Plan</a>
+                <a href="#home">Rooms</a>
               </li>
               <li>
                 <a href="#about">Gallery</a>

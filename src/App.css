@@ -74,5 +74,6 @@
   flex-direction: column; /* Fix the case */
   align-items: center;    /* Fix the case */
   gap: 20px;              /* Correct syntax */
-  margin-top: 40px;       /* No issue here */
+  margin-top: 40px;    
+  max-width: 1000px;   /* No issue here */
 }
