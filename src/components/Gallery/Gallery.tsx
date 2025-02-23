@@ -49,10 +49,10 @@ const Gallery: React.FC = () => {
         className="gallery"
         style={{
           display: "grid",
-        //   gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+          //   gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
           gap: "10px",
           padding: "10px",
-        //   margin: "0 auto",
+          //   margin: "0 auto",
           marginTop: "70px",
           maxWidth: "1000px",
         }}
