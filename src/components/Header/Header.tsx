@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import IonIcon from "@reacticons/ionicons";
 
 const Header: React.FC = () => {
   return (
@@ -26,7 +27,20 @@ const Header: React.FC = () => {
           <nav>
             <ul className="nav-links">
               <li>
-                <a href="/remake">Remake</a>
+                <a href="/remake">
+                  {" "}
+                  <IonIcon name="hammer-outline" size={"large"} color="blue" />
+                </a>
+                <a href="/vibe">
+                  {" "}
+                  <IonIcon
+                    name="color-palette-outline"
+                    size={"large"}
+                    color="blue"
+                  />
+                </a>
+
+                {/* <IonIcon name="eye-off" size={24} color="gray" /> */}
               </li>
             </ul>
           </nav>

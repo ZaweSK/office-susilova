@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import Remake from "./pages/Remake";
+import Vibe from "./pages/Vibe";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/remake" element={<Remake />} />
+            <Route path="/vibe" element={<Vibe />} />
 
             {/* // <Route path="/gallery" element={<Gallery />} />
             // <Route path="/floorplan" element={<FloorPlan />} />

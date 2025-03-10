@@ -1,0 +1,17 @@
+
+  a {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Outfit';
+    color: 'gray';
+    letter-spacing: 5px;
+    font-size: 25px; 
+    font-weight: 800;
+}
+  
+  @font-face {
+    font-family: 'Outfit'; /* Replace with your font's name */
+    src: url('../../fonts/outfit.ttf') format('truetype'); /* Ensure the path is correct */
+    font-weight: normal; /* You can specify weight variations if needed */
+    font-style: normal; /* Specify the style (normal, italic, etc.) */
+  }
