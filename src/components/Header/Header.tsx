@@ -6,39 +6,34 @@ const Header: React.FC = () => {
     <header className="sticky-header">
       <div className="centered-container">
         <div>
-          {" "}
-          <h1
-            className="title"
-            style={{
-              textAlign: "center",
-              fontFamily: "Outfit",
-              color: "gray",
-              letterSpacing: 2,
-              fontSize: 25,
-            }}
-          >
-            Office Sušilova
-          </h1>
+          <a href="/">
+            <h1
+              className="title"
+              style={{
+                textAlign: "center",
+                fontFamily: "Outfit",
+                color: "gray",
+                letterSpacing: 2,
+                fontSize: 25,
+              }}
+            >
+              Office Sušilova
+            </h1>
+          </a>
         </div>
 
-        {/* <div>
+        <div>
           <nav>
             <ul className="nav-links">
               <li>
-                <a href="#home">Rooms</a>
-              </li>
-              <li>
-                <a href="#about">Gallery</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
+                <a href="/remake">Remake</a>
               </li>
             </ul>
           </nav>
-        </div> */}
+        </div>
       </div>
     </header>
   );
 };
 
-export default Header; // Ensure the component is exported for use in other files
+export default Header;

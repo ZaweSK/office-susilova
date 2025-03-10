@@ -1,30 +1,26 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Gallery from "./components/Gallery/Gallery";
-import FloorPlan from "./components/FloorPlan/FloorPlan";
-import Map from "./components/Map/Map";
-import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home";
+import Remake from "./pages/Remake";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <BrowserRouter>
       <Header />
       <main style={{ display: "flex", justifyContent: "center" }}>
         <div className="content-container">
-          <a
-            href="https://my.matterport.com/show/?m=4WsqfdkAM99"
-            className="button-link"
-          >
-            VIRTUALNA PREHLIADKA
-          </a>
-          <FloorPlan />
-          <Gallery />
-          <Map />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/remake" element={<Remake />} />
+
+            {/* // <Route path="/gallery" element={<Gallery />} />
+            // <Route path="/floorplan" element={<FloorPlan />} />
+            // <Route path="/map" element={<Map />} /> */}
+          </Routes>
         </div>
       </main>
-      <Footer />
-    </div>
+    </BrowserRouter>
   );
 };
 

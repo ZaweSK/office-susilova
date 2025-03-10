@@ -1,75 +1,78 @@
 .sticky-header {
-    position: sticky;
-    top: 0; /* Stick to the top */
-    background-color: #ffffff; /* Light background */
-    padding: 30px 0 20px;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid #ddd; /* Optional: subtle border */
-    z-index: 1000; /* Ensure it stays above other elements */
-    width: 100%; /* Full width */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    height: 40px;/* Optional: shadow */
-  }
+  position: sticky;
+  top: 0; /* Stick to the top */
+  background-color: #ffffff; /* Light background */
+  padding: 30px 0 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd; /* Optional: subtle border */
+  z-index: 1000; /* Ensure it stays above other elements */
+  width: 100%; /* Full width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  height: 40px;/* Optional: shadow */
+}
 
-  .sticky-header .centered-container {
-    max-width: 1250px;
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  
-  .titlec {
-    text-align: center;
-    font-family: 'Outfit';
-    color: 'gray';
-    letter-spacing: 5px;
-    font-size: 25px;
-  }
+.sticky-header .centered-container {
+  max-width: 1250px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
-  
-  .sticky-header .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .sticky-header .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 15px;
-    font-family: 'Outfit';
-    text-align: center;
-  }
-  
-  .sticky-header .nav-links li {
-    display: inline;
-    text-align: center ;
-  }
-  
-  .sticky-header .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    padding: 8px 12px;
-    transition: background-color 0.3s, color 0.3s;
-    text-align: center;
-  }
-  
-  .sticky-header .nav-links a:hover {
-    color: orange; /* Hover text color */
-  }
+.titlec {
+  text-align: center;
+  font-family: 'Outfit';
+  color: 'gray';
+  letter-spacing: 5px;
+  font-size: 25px;
+}
 
-  @font-face {
-    font-family: 'Outfit'; /* Replace with your font's name */
-    src: url('../../fonts/outfit.ttf') format('truetype'); /* Ensure the path is correct */
-    font-weight: normal; /* You can specify weight variations if needed */
-    font-style: normal; /* Specify the style (normal, italic, etc.) */
-  }
+.sticky-header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.sticky-header .nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  font-family: 'Outfit';
+  text-align: center;
+}
+
+.sticky-header .nav-links li {
+  display: inline;
+  text-align: center;
+}
+
+.sticky-header .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+.sticky-header .nav-links a:hover {
+  color: orange; /* Hover text color */
+}
+
+.sticky-header a {
+  text-decoration: none; /* Remove underline */
+}
+
+@font-face {
+  font-family: 'Outfit'; /* Replace with your font's name */
+  src: url('../../fonts/outfit.ttf') format('truetype'); /* Ensure the path is correct */
+  font-weight: normal; /* You can specify weight variations if needed */
+  font-style: normal; /* Specify the style (normal, italic, etc.) */
+}

@@ -1,20 +1,24 @@
 import React, { useState } from "react";
 
-const Gallery: React.FC = () => {
-  const images = [
-    "/officeImages/building.jpg",
-    "/officeImages/entrance_fromOutside.jpg",
-    "/officeImages/entrance_fromInside.jpg",
-    "/officeImages/lobby.jpg",
-    "/officeImages/roomA_1.jpg",
-    "/officeImages/roomA_2.jpg",
-    "/officeImages/roomB_1.jpg",
-    "/officeImages/roomB_2.jpg",
-    "/officeImages/kitchen_1.jpg",
-    "/officeImages/kitchen_2.jpg",
-    "/officeImages/kitchen_3.jpg",
-    "/officeImages/smallRoom.jpg",
-  ];
+interface GalleryProps {
+  images: string[];
+}
+
+const Gallery = ({ images }: GalleryProps) => {
+  // const images = [
+  //   "/officeImages/building.jpg",
+  //   "/officeImages/entrance_fromOutside.jpg",
+  //   "/officeImages/entrance_fromInside.jpg",
+  //   "/officeImages/lobby.jpg",
+  //   "/officeImages/roomA_1.jpg",
+  //   "/officeImages/roomA_2.jpg",
+  //   "/officeImages/roomB_1.jpg",
+  //   "/officeImages/roomB_2.jpg",
+  //   "/officeImages/kitchen_1.jpg",
+  //   "/officeImages/kitchen_2.jpg",
+  //   "/officeImages/kitchen_3.jpg",
+  //   "/officeImages/smallRoom.jpg",
+  // ];
 
   const [fullscreenIndex, setFullscreenIndex] = useState<number | null>(null);
 
