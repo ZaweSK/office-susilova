@@ -15,10 +15,6 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/remake" element={<Remake />} />
             <Route path="/vibe" element={<Vibe />} />
-
-            {/* // <Route path="/gallery" element={<Gallery />} />
-            // <Route path="/floorplan" element={<FloorPlan />} />
-            // <Route path="/map" element={<Map />} /> */}
           </Routes>
         </div>
       </main>

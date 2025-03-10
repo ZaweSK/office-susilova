@@ -7,20 +7,15 @@ const Header: React.FC = () => {
     <header className="sticky-header">
       <div className="centered-container">
         <div>
-          <a href="/">
-            <h1
-              className="title"
-              style={{
-                textAlign: "center",
-                fontFamily: "Outfit",
-                color: "gray",
-                letterSpacing: 2,
-                fontSize: 25,
-              }}
-            >
-              Office Sušilova
-            </h1>
-          </a>
+          <nav>
+            <ul className="nav-links">
+              <li>
+                <a className="nav-links" href="/">
+                  <IonIcon name="home" size={"large"} color="green" />
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
 
         <div>
@@ -28,15 +23,15 @@ const Header: React.FC = () => {
             <ul className="nav-links">
               <li>
                 <a href="/remake">
-                  {" "}
-                  <IonIcon name="hammer-outline" size={"large"} color="blue" />
+                  <IonIcon name="hammer-outline" size={"large"} color="gray" />
                 </a>
+              </li>
+              <li>
                 <a href="/vibe">
-                  {" "}
                   <IonIcon
                     name="color-palette-outline"
                     size={"large"}
-                    color="blue"
+                    color="gray"
                   />
                 </a>
               </li>

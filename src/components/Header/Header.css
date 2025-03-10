@@ -1,17 +1,17 @@
 .sticky-header {
   position: sticky;
-  top: 0; /* Stick to the top */
-  background-color: #ffffff; /* Light background */
-  padding: 30px 0 20px;
+  top: 50; /* Stick to the top */
+  background-color: #ffffff;
+  padding: 30 0 15px;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #ddd; /* Optional: subtle border */
+  border-bottom: 1px solid #ddd; 
   z-index: 1000; /* Ensure it stays above other elements */
   width: 100%; /* Full width */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  height: 40px;/* Optional: shadow */
+  height: 60;
 }
 
 .sticky-header .centered-container {
@@ -35,7 +35,7 @@
 .sticky-header .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
+  /* color: #333; */
 }
 
 .sticky-header .nav-links {
@@ -55,7 +55,7 @@
 
 .sticky-header .nav-links a {
   text-decoration: none;
-  color: #333;
+  /* color: #333; */
   font-size: 16px;
   padding: 8px 12px;
   transition: background-color 0.3s, color 0.3s;
@@ -67,7 +67,8 @@
 }
 
 .sticky-header a {
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
+  color: black; /* Remove underline */
 }
 
 @font-face {
