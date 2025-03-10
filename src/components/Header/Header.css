@@ -1,6 +1,6 @@
 .sticky-header {
   position: sticky;
-  top: 50; /* Stick to the top */
+  top: 0px; /* Stick to the top */
   background-color: #ffffff;
   padding: 30 0 15px;
   display: flex;
@@ -11,7 +11,7 @@
   z-index: 1000; /* Ensure it stays above other elements */
   width: 100%; /* Full width */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  height: 60;
+  height: 60px;
 }
 
 .sticky-header .centered-container {
@@ -68,7 +68,7 @@
 
 .sticky-header a {
   text-decoration: none;
-  color: black; /* Remove underline */
+  color: #666666; /* Remove underline */
 }
 
 @font-face {
