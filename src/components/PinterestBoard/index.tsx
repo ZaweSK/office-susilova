@@ -12,7 +12,16 @@ const PinterestBoard = ({
   iframeLink,
 }: PinterestBoardProps) => {
   return (
-    <div>
+    <div
+      style={
+        {
+          // width: "100%",
+          // justifyContent: "center",
+          // alignContent: "center",
+          // alignItems: "center",
+        }
+      }
+    >
       <a
         href={boardLink}
         target="_blank"
@@ -22,10 +31,10 @@ const PinterestBoard = ({
         {title}
       </a>
       <iframe
-        width="1800"
+        width="1200"
         height="900"
         frameBorder="2"
-        scrolling="yes"
+        scrolling="auto"
         style={{ border: "none" }}
         title="Pinterest Board"
         src={iframeLink}

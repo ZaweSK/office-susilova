@@ -1,19 +1,6 @@
 import React from "react";
 import "./Vibe.css";
-
-import Footer from "../../components/Footer/Footer";
 import PinterestBoard from "../../components/PinterestBoard";
-
-const images = [
-  "/officeImages/remake_1.png",
-  "/officeImages/remake_2.png",
-  "/officeImages/remake_3.png",
-  "/officeImages/remake_4.png",
-  "/officeImages/remake_5.png",
-  "/officeImages/remake_6.png",
-  "/officeImages/remake_7.png",
-  "/officeImages/remake_8.png",
-];
 
 const Vibe: React.FC = () => {
   return (
@@ -59,7 +46,6 @@ const Vibe: React.FC = () => {
             }
           />
         </div>
-        {/* <> */}
       </main>
     </div>
   );
