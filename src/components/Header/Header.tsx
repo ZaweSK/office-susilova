@@ -39,8 +39,6 @@ const Header: React.FC = () => {
                     color="blue"
                   />
                 </a>
-
-                {/* <IonIcon name="eye-off" size={24} color="gray" /> */}
               </li>
             </ul>
           </nav>

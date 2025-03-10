@@ -12,16 +12,7 @@ const PinterestBoard = ({
   iframeLink,
 }: PinterestBoardProps) => {
   return (
-    <div
-      style={
-        {
-          // width: "100%",
-          // justifyContent: "center",
-          // alignContent: "center",
-          // alignItems: "center",
-        }
-      }
-    >
+    <div>
       <a
         href={boardLink}
         target="_blank"
