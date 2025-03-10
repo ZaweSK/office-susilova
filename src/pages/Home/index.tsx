@@ -18,6 +18,10 @@ const images = [
   "/officeImages/kitchen_2.jpg",
   "/officeImages/kitchen_3.jpg",
   "/officeImages/smallRoom.jpg",
+  "/officeImages/outside_1.jpg",
+  "/officeImages/outside_2.jpg",
+  "/officeImages/outside_3.jpg",
+  "/officeImages/outside_4.jpg",
 ];
 
 const Home: React.FC = () => {
