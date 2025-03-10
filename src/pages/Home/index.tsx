@@ -38,6 +38,15 @@ const Home: React.FC = () => {
           <FloorPlan />
           <Gallery images={images} />
           {/* <Map /> */}
+
+          <a
+            href="https://drive.google.com/drive/folders/1No092ID15yvxCfHzMccFMADwx-8tMVdY?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ margin: "20px" }}
+          >
+            MORE PTHOTOS
+          </a>
         </div>
       </main>
       <Footer />
