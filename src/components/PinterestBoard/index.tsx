@@ -30,7 +30,7 @@ const PinterestBoard = ({
       >
         {title}
       </a>
-      <iframe
+      {/* <iframe
         width="1200"
         height="900"
         frameBorder="2"
@@ -38,7 +38,7 @@ const PinterestBoard = ({
         style={{ border: "none" }}
         title="Pinterest Board"
         src={iframeLink}
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 };

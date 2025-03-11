@@ -45,7 +45,7 @@ const Home: React.FC = () => {
             rel="noopener noreferrer"
             style={{ margin: "20px" }}
           >
-            MORE PTHOTOS
+            ĎALŠIE FOTKY
           </a>
         </div>
       </main>

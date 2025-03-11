@@ -37,7 +37,7 @@ const Vibe: React.FC = () => {
           />
 
           <PinterestBoard
-            title="OTHERS"
+            title="RÔZNE"
             boardLink={
               "https://cz.pinterest.com/nikolapreov/susilova-brno-others/"
             }
