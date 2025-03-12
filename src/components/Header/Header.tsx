@@ -23,16 +23,18 @@ const Header: React.FC = () => {
             <ul className="nav-links">
               <li>
                 <a href="/remake">
-                  <IonIcon name="hammer-outline" size={"large"} color="gray" />
+                  Dispozícia
+                  {/* <IonIcon name="hammer-outline" size={"large"} color="gray" /> */}
                 </a>
               </li>
               <li>
                 <a href="/vibe">
-                  <IonIcon
+                  Inšpirácia
+                  {/* <IonIcon
                     name="color-palette-outline"
                     size={"large"}
                     color="gray"
-                  />
+                  /> */}
                 </a>
               </li>
             </ul>
