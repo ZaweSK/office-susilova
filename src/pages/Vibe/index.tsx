@@ -37,7 +37,17 @@ const Vibe: React.FC = () => {
           />
 
           <PinterestBoard
-            title="RÔZNE"
+            title="KUPELNA"
+            boardLink={
+              "https://cz.pinterest.com/nikolapreov/susilova-brno-kupelna-wc/"
+            }
+            iframeLink={
+              "https://petracoding.github.io/pinterest/board.html?link=nikolapreov/susilova-brno-kupelna-wc/&hideHeader=0&hideFooter=0&transparent=0"
+            }
+          />
+
+          <PinterestBoard
+            title="ROZNE"
             boardLink={
               "https://cz.pinterest.com/nikolapreov/susilova-brno-others/"
             }
