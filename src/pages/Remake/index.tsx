@@ -14,6 +14,7 @@ const images = [
   "/officeImages/remake_6.png",
   "/officeImages/remake_7.png",
   "/officeImages/remake_8.png",
+  "/officeImages/remake_9.png",
 ];
 
 const Remake: React.FC = () => {
