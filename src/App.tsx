@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home";
 import Remake from "./pages/Remake";
 import Vibe from "./pages/Vibe";
+import Nikola from "./pages/Nikola";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/remake" element={<Remake />} />
             <Route path="/vibe" element={<Vibe />} />
+            <Route path="/nikola" element={<Nikola />} />
           </Routes>
         </div>
       </main>

@@ -37,6 +37,11 @@ const Header: React.FC = () => {
                   /> */}
                 </a>
               </li>
+              <li>
+                <a href="/nikola">
+                  Nikola
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
