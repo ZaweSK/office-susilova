@@ -38,8 +38,8 @@ const Header: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="/nikola">
-                  Nikola
+                <a href="/lucia">
+                  Lucia
                 </a>
               </li>
             </ul>
